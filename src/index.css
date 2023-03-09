@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/fondo-pantalla-black.png');
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.center{
+  text-align: center;
+}
+
+.card-pokemon{
+  max-width: 300px;
+  min-height: 400px;
+  max-height: 400px;
+}
+
+.img-pokemon{
+  min-height: 230px;
+  max-height: 230px;
+  object-fit: contain !important;
+
+}
+
+.name-pokemon{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contenedor{
+  width: 1300px;
+  background:white;
+  background-image: url('../public/fondo-pantalla-white.png');
+}
+
+
+.contenedor-cuerpo{
+  display: grid;
+  background:white;
+  width: 90%;
+margin: auto  ;
+padding: auto;
+grid-template-columns: ifr ifr ifr ifr;
+justify-content: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+  .menu-contenedor{
+    font-family: 'Share Tech', sans-serif;
+    font-size: 5rem;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    height: 75px;
+    margin : 20px auto;
+    width: 100%;
+    line-height: 70px;
+    
+  }
+  .contenedor-nav{
+    display: flex;
+    background-color: white;
+    height: 100%;
+    margin : auto 170px ;
+    overflow: hidden;
+  }
+  .menu-navegador{
+ 
+    text-align: center;
+    display: flex;
+    align-items: center;
+   list-style:none;
+   width: 95%;
+    margin:  auto 150px;
+    height: 100%;
+    font-size: 1rem;
+    background-color: #fff;  
+    
+  }
+.menu-inicio{ 
+  margin: auto;
+  width: 34%; 
+  height: 100%;
+  border-bottom:8px solid red;
+   
+  
+}
+.menu-poquedex{ 
+  width: 33%;
+  margin: auto;
+  height: 100%;
+  border-bottom:8px solid orange;
+   
+}
+.menu-aplicaciones{ 
+  width: 33%;
+  margin: auto;
+  height: 100%;
+  border-bottom:8px solid #D7D74B;
+   
+}
+ 
+.nav-imagen-icono{
+  width: 13%;
+  margin:  auto 25px;
+}
+.menu-inicio:hover {
+	background-color: red;
+	color: white;
+}
+.menu-poquedex:hover {
+	background-color: orange;
+	color: white;
+}  
+.menu-aplicaciones:hover {
+	background-color: #D7D74B;
+	color: white;
+}  
+
+
+@media (min-width:  898px) {
+  .card-pokemon{ 
+    max-width: 800px;
+    padding:  0 10%;
+  }
+  .contenedor{
+    width: 100%; 
+  }
+  
+  
+  
+ 
+}
+@media (min-width:  480px) {
+  
+ 
+  
+   
+  .contenedor-nav{ 
+    height: 90px;
+    margin :0 ; 
+  }
+  .menu-navegador{
+ 
+    margin:  auto 15px;
+    height: 100%;
+    font-size: 2rem;
+    
+    
+  }
+ 
+.menu-inicio{  
+  border-bottom:15px solid red;
+   
+  
+}
+.menu-poquedex{  
+  border-bottom:15px solid orange;
+   
+}
+.menu-aplicaciones{  
+  border-bottom:15px solid #D7D74B;
+   
+}
+}
+ 
+  
+ 
+ 
